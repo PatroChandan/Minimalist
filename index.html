@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MINIMALIST</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500;1,700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">
+        <img src="./assets/Frame.svg" />
+      </a>
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button type="submit" class="btnlogin">Login</button>
+        </li>
+      </ul>
+      <div class="header-icons">
+        <a href="#"><i class="bx bx-user"></i></a>
+        <a href="#"><i class="bx bx-heart"></i></a>
+        <a href="#"><i class="bx bx-cart"></i></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-text">
+        <h5>The choice is yours. Because they don’t have one.</h5>
+        <div class="btn">
+          <button class="qvbtn">QUICK VIEW</button>
+        </div>
+      </div>
+    </section>
+    <!-- about section -->
+    <section class="about" id="about">
+      <div class="center-text">
+        <img src="./assets/Frame (2).svg" />
+        <h5>About</h5>
+        <img src="./assets/Frame (2).svg" />
+      </div>
+      <div class="about-content">
+        <div>
+          <img src="./assets/Frame (3).svg" />
+        </div>
+        <div class="about-container">
+          <p>
+            Our products are crafted exclusively from the dreams and screams of
+            young kids who wanted to show their mastery in their chosen fields,
+            but were directed towards a factory for daily wages. Each cracker
+            bursts brighter than their lost smiles, and can be heard louder than
+            their cries for miles. Buy them, burst them, brag about them.
+          </p>
+          <h4>The choice is yours. Because they don’t have one.</h4>
+        </div>
+        <div>
+          <img src="./assets/Frame (3).svg" />
+        </div>
+      </div>
+    </section>
+    <!-- popup -->
+
+    <!-- products section -->
+    <section class="products" id="products">
+      <div class="center-text">
+        <img src="./assets/Frame (2).svg" />
+        <h5>Our products</h5>
+        <img src="./assets/Frame (2).svg" />
+      </div>
+      <div class="card-container">
+        <div class="products-content">
+          <div class="row">
+            <img src="./assets/Frame 7.svg" alt="" />
+            <div class="products-text">
+              <h5>Raju Rassibomb</h5>
+              <button id="card-btn1" class="qvbtn">QUICK VIEW</button>
+            </div>
+          </div>
+          <div class="row">
+            <img src="./assets/Frame 7.svg" alt="" />
+            <div class="products-text">
+              <h5>Ladiyon ki Rani Chani</h5>
+              <button id="card-btn2" class="qvbtn">QUICK VIEW</button>
+            </div>
+          </div>
+        </div>
+        <div class="center-frame">
+          <img src="./assets/Frame (1).svg" />
+        </div>
+
+        <!-- pop -->
+        <div class="pop" id="popup">
+          <div class="pop-content">
+            <div class="img-container">
+              <div class="main-img">
+                <img src="./assets/Frame 7.svg" />
+              </div>
+              <div class="child-imgs">
+                <img
+                  id="child-img1"
+                  class="child-img"
+                  src="./assets/Frame 7.svg"
+                  rel="card img"
+                />
+                <img
+                  id="child-img2"
+                  class="child-img"
+                  src="./assets/Frame 7.svg"
+                  rel="card img"
+                />
+                <img
+                  id="child-img3"
+                  class="child-img"
+                  src="./assets/Frame 7.svg"
+                  rel="card img"
+                />
+                <img
+                  id="child-img4"
+                  class="child-img"
+                  src="./assets/Frame 7.svg"
+                  rel="card img"
+                />
+              </div>
+            </div>
+            <div>
+              <div>
+                <h2>Raju Rassibomb</h2>
+                <h3>MRP: <span>$5</span></h3>
+              </div>
+              <hr class="new2" />
+              <div>
+                <h4>Product Description:</h4>
+                <p>
+                  This product packs an extra punch, thanks to the literal
+                  blood,
+                </p>
+              </div>
+              <hr class="new2" />
+              <div>
+                <h4>Product Contents:</h4>
+                <p>
+                  <i class="fa-solid fa-fire"></i> 10 hand-hurting pieces of
+                  rassi bombs
+                </p>
+                <p><i class="fa-solid fa-fire"></i> Jilled with great pain</p>
+                <p><i class="fa-solid fa-fire"></i> Raju's hopes</p>
+              </div>
+              <hr class="new2" />
+              <div>
+                <h4>Shipping Time:</h4>
+                <p>Before raju understand that his dreams do not matter.</p>
+              </div>
+              <div>
+                <button class="pop-btn">Choose Now</button>
+              </div>
+            </div>
+            <span class="close" id="closePop">&times;</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <section class="footer" id="footer">
+      <div class="yellow-frame">
+        <img src="./assets//Frame 64.svg" />
+      </div>
+      <footer class="main-contact">
+        <div class="footer-start">
+          <img src="./assets/Frame 62.svg" />
+        </div>
+        <div class="footer-middle">
+          <div class="txt">Follow us on</div>
+          <div class="social">
+            <li>
+              <a href="#instagram"><img src="./assets/001-instagram.png" /></a>
+            </li>
+            <li>
+              <a href="#facebook"><img src="./assets//004-facebook.png" /></a>
+            </li>
+            <li>
+              <a href="#twitter"><img src="./assets//003-twitter.png" /></a>
+            </li>
+            <li>
+              <a href="#youtube"><img src="./assets/002-youtube.png" /></a>
+            </li>
+            <li>
+              <a href="#linkedin"><img src="./assets//005-linkedin.png" /></a>
+            </li>
+          </div>
+        </div>
+        <div class="footer-end">
+          <img src="./assets/Frame 62.svg" />
+        </div>
+      </footer>
+      <div class="yellow-frame">
+        <img src="./assets/Frame 64.svg" />
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
