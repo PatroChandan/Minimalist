@@ -33,7 +33,7 @@ closePop.addEventListener("click", () => {
 });
 
 window.addEventListener("click", (e) => {
-  if (e.target == modal) {
+  if (e.target === popup) {
     popup.style.display = "none";
   }
 });

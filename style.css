@@ -31,7 +31,7 @@ header {
   transition: all 0.4s ease;
 }
 
-.logo h1 {
+.logo {
   height: auto;
   width: 160px;
   max-width: 100%;
