@@ -88,9 +88,7 @@ header ul li button:hover {
 section {
   padding: 80px 10%;
 }
-section .active {
-  filter: blur(20px);
-}
+
 .home {
   position: relative;
   height: auto;
